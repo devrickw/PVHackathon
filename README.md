@@ -38,3 +38,26 @@ source activate [your environment name]
 ```
 conda install -y jupyter
 ```
+
+## Install Packages
+Copy and Paste Code
+
+```
+conda install -y scipy
+pip install --exists-action i --upgrade scikit-learn
+pip install --exists-action i --upgrade pandas
+pip install --exists-action i --upgrade pandas-datareader
+pip install --exists-action i --upgrade matplotlib
+pip install --exists-action i --upgrade seaborn
+pip install --exists-action i --upgrade requests
+pip install --exists-action i --upgrade plotly
+pip install --exists-action i --upgrade plotly express
+conda update -y --all
+
+```
+
+##Run Jupyter Notebook
+```
+jupyter notebook
+```
+Juypter Notebook should pop open in a new tab
