@@ -17,6 +17,12 @@ mkdir ChevronWorkshop
 cd ChevronWorkshop
 
 ```
+## Download files from GitHub to your ChevronWorkshop folder
+Go to:
+
+https://github.com/devrickw/PVHackathon/tree/be615756589e40d26e8a250f4c515533281ee58e/Workshop
+
+Click on each file (3 files) and download. Move files to ChevronWorksop folder
 
 ## Make a python environment
 Use the conda create command to make environment (replace 'myenv' with what you want to call your environment)
@@ -55,8 +61,7 @@ pip install --exists-action i --upgrade plotly express
 conda update -y --all
 
 ```
-
-##Run Jupyter Notebook
+Run Jupyter Notebook
 ```
 jupyter notebook
 ```
